@@ -1,5 +1,5 @@
 'use client'
-import Image from "next/image";
+// import Image from "next/image";
 import { useState } from "react";
 import Foot from "@/components/Foot";
 import Header from "@/components/Header";

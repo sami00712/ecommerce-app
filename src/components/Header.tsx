@@ -1,10 +1,10 @@
 'use client'
-import { useRouter } from "next/router";
-import { useState, useEffect } from "react";
+// import { useRouter } from "next/router";
+import { useState} from "react";
 import Link from "next/link";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faSearch } from '@fortawesome/free-solid-svg-icons';
-import { faShoppingCart, faTrash, faUser,faHamburger, faHammer } from '@fortawesome/free-solid-svg-icons'
+import { faShoppingCart, faUser } from '@fortawesome/free-solid-svg-icons'
 import React from "react";
 
 export default function Header(){
@@ -19,13 +19,13 @@ export default function Header(){
           window.location.href = selectedValue;
         }
       };
-      const handleSelectChange1 = (event: React.ChangeEvent<HTMLSelectElement>) => {
-        const selectedValue = event.target.value;
-        if (selectedValue) {
-          // Navigate to the selected page using window.location
-          window.location.href = selectedValue;
-        }
-      };
+      // const handleSelectChange1 = (event: React.ChangeEvent<HTMLSelectElement>) => {
+      //   const selectedValue = event.target.value;
+      //   if (selectedValue) {
+      //     // Navigate to the selected page using window.location
+      //     window.location.href = selectedValue;
+      //   }
+      // };
     
     return(
         <div className="lg:ml-16 sm:ml-8 mr-16 flex items-center pt-5 pb-5 ">

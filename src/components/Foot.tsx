@@ -1,6 +1,6 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faMessage} from '@fortawesome/free-solid-svg-icons';
-import { FaFacebook, FaTwitter, FaInstagram, FaGithub, FaGoogle } from 'react-icons/fa';
+import { FaFacebook, FaTwitter, FaInstagram, FaGithub } from 'react-icons/fa';
 import { faAppleWhole} from '@fortawesome/free-solid-svg-icons';
 
 
@@ -31,16 +31,16 @@ export default function Foot(){
                         women to men.
                     </p>
                     <div className="flex mt-7" >
-                      <a href="" target="_blank" rel="noopener noreferrer">
+                      <a href="">
                        <FaFacebook size={30} color="" className="mr-2  bg-white p-1 rounded-full hover:bg-black hover:text-white" />
                         </a>
-                     <a href="" target="_blank" rel="noopener noreferrer">
+                     <a href="">
                       <FaTwitter size={30} color="" className="mr-2  bg-white p-1 rounded-full hover:bg-black hover:text-white" />
                           </a>
-                      <a href="" target="_blank" rel="noopener noreferrer">
+                      <a href="">
                          <FaInstagram size={30} color="" className="mr-2  bg-white p-1 rounded-full hover:bg-black hover:text-white" />
                       </a>
-                      <a href="" target="_blank" rel="noopener noreferrer">
+                      <a href="">
                          <FaGithub size={30} color="" className="mr-2 bg-white p-1 rounded-full hover:bg-black hover:text-white" />
                       </a>
                     </div>
