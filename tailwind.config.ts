@@ -12,8 +12,18 @@ const config: Config = {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      screens: {
+        xs: "50px",   // custom screen size for extra small devices
+        sm: "100px",   // default small devices
+        md: "768px",   // default medium devices
+        lg: "1024px",  // default large devices
+        xl: "1280px",  // default extra-large devices
+        '2xl': "1536px", // custom extra-large screen size
+      },
     },
   },
+ 
+  
   plugins: [],
 };
 export default config;
